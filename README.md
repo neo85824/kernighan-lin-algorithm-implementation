@@ -31,7 +31,7 @@ This project is inspired by [li3939108](https://github.com/li3939108/KL-Partitio
 
 ## Installation
 
-1. Install [CMake](https://cmake.org/) and compile
+Install [CMake](https://cmake.org/) and compile
 
 ```shell
 git clone https://github.com/neo85824/kernighan-lin-algorithm-implementation.git
