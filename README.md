@@ -1,4 +1,4 @@
-# Implementation of Kernighan-Lin Algorithm (C++)
+## Implementation of Kernighan-Lin Algorithm (C++)
 
 This code is the implementation of Kernighan-Lin algorithm with C++, which addresses two-way mini-cut partition problem.
 * [An efficient heuristic procedure for partitioning graphs
