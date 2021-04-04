@@ -88,7 +88,7 @@ public:
         cout << "---------------------------------------------------------------------------------------------------" << endl;
         cout << "Final cost: " << GetCutCost() << endl;
 
-        return vector<bool>(is_A, is_A + n/2);
+        return vector<bool>(is_A, is_A + n);
     }
 
     void Initialization() {

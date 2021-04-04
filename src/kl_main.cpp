@@ -6,7 +6,7 @@ using namespace std;
 int main(int argc, char** argv) {
     int n, e;
     cin >> n >>  e;
-    int v = n & 1 ? n+1 : n;  // dummy vertex for non equal size of subsets a & b
+    int v = n & 1 ? n+1 : n;  // dummy vertex for unequal size of subsets a & b
     Graph graph(v);
     cout << "number of vertices : "  << n << endl;
 
