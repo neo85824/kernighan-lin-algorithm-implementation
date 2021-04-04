@@ -66,10 +66,10 @@ The execution file is in `src` of the built folder (e.g. `build/src`).
 ```
 2. Execute with specific input file
 ```
-./kl_main < input_1000_1500.txt  
+./kl_main < ../../input/input_1000_1500.txt
 ```
 3. Execute with specific input file and output the result vertex of set in specific output file
 
 ```
-./kl_main < input_1000_1500.txt output.txt
+./kl_main < ../../input/input_1000_1500.txt
 ```
