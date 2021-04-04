@@ -6,12 +6,13 @@ using namespace std;
 int main(int argc, char** argv) {
     int n, e;
     cin >> n >>  e;
-    Graph graph(n);
+    int v = n & 1 ? n+1 : n;  // dummy vertex for non equal size of subsets a & b
+    Graph graph(v);
+    cout << "number of vertices : "  << n << endl;
 
     for(int i=0; i<e; i++) {
         int a, b;
         cin >> a >> b ;
-
         graph.AddEdge(a-1, b-1, 1);
     }
     
